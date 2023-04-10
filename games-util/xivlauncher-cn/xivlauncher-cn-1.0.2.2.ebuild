@@ -1,4 +1,4 @@
-EAPI=7
+EAPI=8
 
 NUGETS="
 castle.core-4.4.1
