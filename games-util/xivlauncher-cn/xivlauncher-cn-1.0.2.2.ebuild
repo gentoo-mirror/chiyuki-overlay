@@ -230,7 +230,7 @@ KEYWORDS="~amd64"
 IUSE="+aria2 act dx9 +libsecret abi_x86_32"
 REQUIRED_USE="act? ( abi_x86_32 ) dx9? ( abi_x86_32 )"
 
-BDEPEND="dev-dotnet/dotnet-sdk-bin:6"
+BDEPEND="dev-dotnet/dotnet-sdk-bin:6.0"
 RDEPEND="
 	aria2? ( net-misc/aria2 )
 	libsecret? ( app-crypt/libsecret )
