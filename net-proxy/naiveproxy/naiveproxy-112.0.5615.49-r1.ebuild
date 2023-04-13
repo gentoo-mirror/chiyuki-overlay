@@ -83,6 +83,8 @@ src_compile() {
         include_transport_security_state_preload_list=false
         use_nss_certs=false"
 
+	export DEPOT_TOOLS_WIN_TOOLCHAIN=0
+
 	mkdir -p "${out}"
 	gn gen "$out" --args="$flags" --script-executable=python
 	ninja -C "$out" naive
