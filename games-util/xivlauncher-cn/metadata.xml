@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="github">ottercorp/XIVLauncher.Core</remote-id>
   <bugs-to>https://github.com/ottercorp/XIVLauncher.Core/issues</bugs-to>
-</upstream>
+  </upstream>
   <use>
     <flag name="libsecret">Enable secrets/password storage support.</flag>
     <flag name="act">Advanced Combat Tracker in Final Fantasy XIV.</flag>
