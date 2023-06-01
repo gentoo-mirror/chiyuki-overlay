@@ -5,6 +5,13 @@ Chiyuki's Personal Gentoo Linux Overlay
 
 
 ## 使用方法
+
+- Method 1
+```
+sudo eselect repository add chiyuki-overlay git https://github.com/IllyaTheHath/gentoo-overlay.git
+sudo emerge --sync chiyuki-overlay
+```
+- Method 2
 ```
 sudo touch /etc/portage/repos.conf/chiyuki-overlay
 
