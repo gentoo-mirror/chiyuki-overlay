@@ -28,6 +28,7 @@ microsoft.codeanalysis.bannedapianalyzers-3.3.3
 microsoft.codeanalysis.common-4.0.1
 microsoft.codeanalysis.csharp-4.0.1
 microsoft.codeanalysis.netanalyzers-6.0.0
+microsoft.codeanalysis.netanalyzers-7.0.0
 microsoft.dotnet.platformabstractions-3.1.6
 microsoft.netcore.app.host.osx-x64-6.0.12
 microsoft.netcore.app.host.win-x64-6.0.12
@@ -87,15 +88,6 @@ runtime.unix.system.net.primitives-4.3.0
 runtime.unix.system.net.sockets-4.3.0
 runtime.unix.system.private.uri-4.3.0
 runtime.unix.system.runtime.extensions-4.3.0
-runtime.win.microsoft.win32.primitives-4.3.0
-runtime.win.system.console-4.3.0
-runtime.win.system.diagnostics.debug-4.3.0
-runtime.win.system.io.filesystem-4.3.0
-runtime.win.system.net.primitives-4.3.0
-runtime.win.system.net.sockets-4.3.0
-runtime.win.system.runtime.extensions-4.3.0
-runtime.win7-x64.runtime.native.system.io.compression-4.3.0
-runtime.win7.system.private.uri-4.3.0
 serilog-2.12.0
 serilog.enrichers.thread-3.1.0
 serilog.sinks.async-1.5.0
@@ -105,7 +97,7 @@ serilog.sinks.debug-1.0.1
 serilog.sinks.file-4.1.0
 serilog.sinks.file-5.0.0
 sharedmemory-2.3.2
-sharpcompress-0.32.2
+sharpcompress-0.17.1
 sharpgen.runtime-2.0.0-beta.10
 sharpgen.runtime.com-2.0.0-beta.10
 sixlabors.imagesharp-1.0.4
@@ -254,8 +246,8 @@ RDEPEND="
 GITHUB_USER="ottercorp"
 XIVL_REPO="XIVLauncher.Core"
 XIVQL_REPO="FFXIVQuickLauncher"
-XIVL_COMMIT="178bd809904c9d000b62b5ed9bbe08854e2b01ca"
-XIVQL_COMMIT="86e7933e060ec6c2ea610a4d427d021c031c35b0"
+XIVL_COMMIT="5a0f1b117302195721a6574cb0138f57071d15ef"
+XIVQL_COMMIT="ee6ccc113aba2a0f72743e5ac13fb404f26e501b"
 
 nuget_uris() {
 	local -r regex='^([a-zA-Z0-9_.-]+)-([0-9]+\.[0-9]+\.[0-9]+.*)$'

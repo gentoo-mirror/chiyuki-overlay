@@ -18,10 +18,10 @@ RDEPEND="
 	!net-proxy/naiveproxy-bin
 "
 
-GITHUB_VER="113.0.5672.62-2"
+GITHUB_VER="116.0.5845.92-2"
 GITHUB_TAG="v${GITHUB_VER}"
-CLANG_REVISION="llvmorg-17-init-4759-g547e3456-1"
-PGO_PATH="chrome-linux-5672-1682419203-4df9c2f8b97b0e23303fa2b15279906232abc306.profdata"
+CLANG_REVISION="llvmorg-17-init-12166-g7586aeab-3"
+PGO_PATH="chrome-linux-5845-1691722785-bee99d0dc25d78f4193491ad30759d668e3c9311.profdata"
 
 SRC_URI="
 https://github.com/klzgrad/naiveproxy/archive/refs/tags/${GITHUB_TAG}.tar.gz -> ${P}.tar.gz
@@ -91,7 +91,6 @@ src_compile() {
 }
 
 src_install() {
-	ls -al
 	insinto /opt/naiveproxy
 	doins -r config.json out/Release/naive
 	pushd ${WORKDIR}/naiveproxy-${GITHUB_VER}

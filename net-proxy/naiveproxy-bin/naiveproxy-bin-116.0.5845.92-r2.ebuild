@@ -13,7 +13,7 @@ RDEPEND="
 	!net-proxy/naiveproxy
 "
 
-GITHUB_TAG="v113.0.5672.62-2"
+GITHUB_TAG="v116.0.5845.92-2"
 
 SRC_URI="https://github.com/klzgrad/naiveproxy/releases/download/${GITHUB_TAG}/naiveproxy-${GITHUB_TAG}-linux-x64.tar.xz"
 

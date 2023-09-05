@@ -91,7 +91,6 @@ src_compile() {
 }
 
 src_install() {
-	ls -al
 	insinto /opt/naiveproxy
 	doins -r config.json out/Release/naive
 	pushd ${WORKDIR}/naiveproxy-${GITHUB_VER}
