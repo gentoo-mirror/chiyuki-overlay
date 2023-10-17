@@ -3,7 +3,7 @@ Chiyuki's Personal Gentoo Linux Overlay
 
 个人使用的overlay
 
-
+## Usage
 ## 使用方法
 
 - Method 1
