@@ -20,7 +20,7 @@ https://github.com/SagerNet/sing-geoip/archive/refs/tags/${PV}.tar.gz -> ${P}.ta
 https://github.com/Dreamacro/maxmind-geoip/releases/download/${PV}/Country.mmdb
 "
 SRC_URI+="
-https://github.com/IllyaTheHath/gentoo-overlay/releases/download/${P}/sing-geoip-${P}-deps.tar.xz -> ${P}-deps.tar.xz
+https://github.com/IllyaTheHath/gentoo-overlay/releases/download/${P}/${P}-deps.tar.xz -> ${P}-deps.tar.xz
 "
 
 src_unpack() {
