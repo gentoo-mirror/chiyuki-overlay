@@ -18,10 +18,10 @@ RDEPEND="
 	!net-proxy/naiveproxy-bin
 "
 
-GITHUB_VER="116.0.5845.92-2"
+GITHUB_VER="118.0.5993.65-1"
 GITHUB_TAG="v${GITHUB_VER}"
-CLANG_REVISION="llvmorg-17-init-12166-g7586aeab-3"
-PGO_PATH="chrome-linux-5845-1691722785-bee99d0dc25d78f4193491ad30759d668e3c9311.profdata"
+CLANG_REVISION="llvmorg-17-init-16420-g0c545a44-8"
+PGO_PATH="chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata"
 
 SRC_URI="
 https://github.com/klzgrad/naiveproxy/archive/refs/tags/${GITHUB_TAG}.tar.gz -> ${P}.tar.gz
