@@ -15,13 +15,12 @@ BDEPEND="
 
 RDEPEND="
 	dev-libs/openssl
-	!net-proxy/naiveproxy-bin
 "
 
-GITHUB_VER="117.0.5938.44-1"
+GITHUB_VER="119.0.6045.66-1"
 GITHUB_TAG="v${GITHUB_VER}"
-CLANG_REVISION="llvmorg-18-init-1174-g2532b68f-1"
-PGO_PATH="chrome-linux-5938-1693935896-daaeff75cfda3bcc13276975ff4ba18cb55c14c5.profdata"
+CLANG_REVISION="llvmorg-18-init-4631-gd50b56d1-1"
+PGO_PATH="chrome-linux-6045-1698168704-07516f89219c0fc36affea4e2e69cc8244c0e858.profdata"
 
 SRC_URI="
 https://github.com/klzgrad/naiveproxy/archive/refs/tags/${GITHUB_TAG}.tar.gz -> ${P}.tar.gz
@@ -81,7 +80,10 @@ src_compile() {
         enable_mdns=false
         enable_reporting=false
         include_transport_security_state_preload_list=false
-        use_nss_certs=false"
+        use_nss_certs=false
+
+        enable_backup_ref_ptr_support=false
+        enable_dangling_raw_ptr_checks=false"
 
 	export DEPOT_TOOLS_WIN_TOOLCHAIN=0
 
