@@ -1,18 +1,17 @@
 EAPI=8
 
-inherit git-r3 qmake-utils desktop xdg-utils
+inherit qmake-utils desktop xdg-utils
 
 DESCRIPTION="Media Player Classic Qute Theater, A clone of Media Player Classic reimplemented in Qt."
 HOMEPAGE="https://github.com/mpc-qt/mpc-qt/"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="-*"
+KEYWORDS="~amd64"
 
 IUSE="comic"
 
 BDEPEND="
-	dev-vcs/git
 	sys-devel/make
 "
 
@@ -23,7 +22,8 @@ RDEPEND="
 	comic? ( media-video/mpv[archive] )
 "
 
-EGIT_REPO_URI="https://github.com/mpc-qt/mpc-qt.git"
+SRC_URI="
+https://github.com/mpc-qt/mpc-qt/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 src_configure() {
 	eqmake6 PREFIX=/usr MPCQT_VERSION=${PV}
@@ -33,7 +33,7 @@ src_install() {
 	mkdir output
 	emake DESTDIR=./output INSTALL_ROOT=./output install
 	cd output
-	
+
 	into /
 	dobin usr/bin/mpc-qt
 	dodoc usr/share/doc/mpc-qt/ipc.md
