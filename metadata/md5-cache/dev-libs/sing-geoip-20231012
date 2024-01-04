@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.18 >=dev-lang/go-1.18 app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=sing-geoip database
+EAPI=8
+HOMEPAGE=https://github.com/SagerNet/sing-geoip
+INHERIT=go-module
+IUSE=cn hk tw us jp
+KEYWORDS=~amd64
+LICENSE=GPL-3 BSD-3 MIT Apache-2 ISC
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/SagerNet/sing-geoip/archive/refs/tags/20231012.tar.gz -> sing-geoip-20231012.tar.gz https://github.com/Dreamacro/maxmind-geoip/releases/download/20231012/Country.mmdb https://github.com/IllyaTheHath/gentoo-overlay/releases/download/sing-geoip-20231012/sing-geoip-20231012-deps.tar.xz -> sing-geoip-20231012-deps.tar.xz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-env	96e1747610bbb2f5c5d3fb16f0f3a83a	go-module	9e5a8f7b134fd3ed3785755097fe8ef0
+_md5_=35bfcdf69a73b3d6f3bde946842dc85c

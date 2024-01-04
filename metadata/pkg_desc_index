@@ -1,0 +1,5 @@
+dev-libs/sing-geoip 20231012: sing-geoip database
+dev-libs/sing-geosite 20231015073627: sing-geoip database
+games-util/xivlauncher-cn 1.0.4.0 1.0.6.2: Custom Launcher for Final Fantasy XIV Online CN (Crossplatform rewrite)
+media-video/mpc-qt 23.02 9999: Media Player Classic Qute Theater, A clone of Media Player Classic reimplemented in Qt.
+net-proxy/naiveproxy 118.0.5993.65-r1 119.0.6045.66-r1: NaiveProxy uses Chromium's network stack to camouflage traffic with strong censorship resistence and low detectablility
