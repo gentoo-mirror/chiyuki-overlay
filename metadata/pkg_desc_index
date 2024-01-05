@@ -4,3 +4,4 @@ games-util/xivlauncher-cn 1.0.4.0 1.0.6.2: Custom Launcher for Final Fantasy XIV
 media-video/mpc-qt 23.02 23.12 9999: Media Player Classic Qute Theater, A clone of Media Player Classic reimplemented in Qt.
 net-proxy/naiveproxy 119.0.6045.66-r1 120.0.6099.43-r1: NaiveProxy uses Chromium's network stack to camouflage traffic with strong censorship resistence and low detectablility
 net-proxy/nekoray-bin 3.26: Qt based cross-platform GUI proxy configuration manager
+net-proxy/sing-box 1.7.8: The universal proxy platform
