@@ -7,7 +7,7 @@ HOMEPAGE="https://github.com/mpc-qt/mpc-qt/"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="-*"
+KEYWORDS=""
 
 IUSE="comic"
 
