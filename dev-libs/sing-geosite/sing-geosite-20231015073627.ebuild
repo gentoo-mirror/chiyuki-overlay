@@ -3,7 +3,7 @@ EAPI=8
 inherit go-module
 
 DESCRIPTION="sing-geoip database"
-HOMEPAGE="https://github.com/SagerNet/sing-geoip"
+HOMEPAGE="https://github.com/IllyaTheHath/sing-geosite"
 LICENSE="GPL-3 BSD-3 MIT Apache-2 ISC"
 
 SLOT="0"
