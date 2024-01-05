@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>illyathehath@outlook.com</email>
+    <name>Kagura Chiyuki</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">SagerNet/sing-box</remote-id>
+  <bugs-to>https://github.com/SagerNet/sing-box/issues</bugs-to>
+  </upstream>
+</pkgmetadata>
