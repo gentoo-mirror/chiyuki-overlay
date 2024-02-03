@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/make
+BDEPEND=dev-build/make
 DEFINED_PHASES=configure install postinst postrm
 DESCRIPTION=Media Player Classic Qute Theater, A clone of Media Player Classic reimplemented in Qt.
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-qt/qtbase:6 dev-qt/qtsvg:6 media-video/mpv[libmpv] comic? ( media-vi
 SLOT=0
 SRC_URI=https://github.com/mpc-qt/mpc-qt/archive/refs/tags/v23.12.tar.gz -> mpc-qt-23.12.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3
-_md5_=5a6ff5f5453f7879b925c1edb624ae59
+_md5_=cd62b49ef28f9ba1963d90184f3f5494
