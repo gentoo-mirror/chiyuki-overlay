@@ -12,7 +12,7 @@ KEYWORDS="~amd64"
 IUSE="comic"
 
 BDEPEND="
-	sys-devel/make
+	dev-build/make
 "
 
 RDEPEND="
