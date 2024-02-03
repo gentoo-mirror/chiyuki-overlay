@@ -9,8 +9,8 @@ KEYWORDS="~amd64"
 
 BDEPEND="
 	>=dev-lang/python-3.0.0
-	dev-util/ninja
-	dev-util/gn
+	dev-build/ninja
+	dev-build/gn
 "
 
 RDEPEND="

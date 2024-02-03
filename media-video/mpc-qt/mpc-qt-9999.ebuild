@@ -13,7 +13,7 @@ IUSE="comic"
 
 BDEPEND="
 	dev-vcs/git
-	sys-devel/make
+	dev-build/make
 "
 
 RDEPEND="
